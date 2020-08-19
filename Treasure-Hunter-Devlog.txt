@@ -1,0 +1,36 @@
+Syfte: Hämta objekt (skatter och annat) från havet och lägga dem i nätet (Mål)
+
+
+Player area:
+
+Hav.
+Objekt formationer i vattnet.
+Nät där du droppar av objekten.
+Fienden, elektriska ålar.
+
+
+Objekt att hämta, skatter/oljetunnor. (Olika skatter ger olika poäng. Uppdelat i 3 klasser)
+
+Storlek och vikt.
+klass 1: 100p, större och tyngre objekt. 
+klass 2: 50p, mellanstora objekt, normal vikt.
+klass 3: 25p, små och lätta objekt.
+
+
+Spelare:
+Ska kunna åka under vatten.
+Ska kunna gräppa objekt.
+
+Max tid under vatten.
+Kollisioner minskar denna tid.
+
+Där man sitter fylls med vatten. Indkerar tiden du har kvarr...
+"Tömma ut vatten" om du kommer upp till ytan.
+
+
+
+LOG #1:
+Spelare skapad och kan förflytta sig när den är i "vatten". När den inte är i "vatten" så tar den inte input utan glider
+i x-led, samt faller mot vattnet. (Variant av gravitation I guess).
+
+Börjat arbeta på "vatten" komponenten.
